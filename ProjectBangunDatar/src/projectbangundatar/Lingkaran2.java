@@ -11,24 +11,24 @@ package projectbangundatar;
  */
 public class Lingkaran2 {
     public static void main(String[] args) {
-        // membuat obyek persegi lingkaran A
-        Lingkaran A = new Lingkaran();
+        // membuat obyek persegi lingkaran L1
+        Lingkaran L1 = new Lingkaran();
         
-        // memberi nilai atribut dari Lingkaran A
-        A.jejari = 6;
+        // memberi nilai atribut dari Lingkaran L1
+        L1.jejari = 6;
         
-        // menghitung luas dan keliling dari Lingkaran A
-        A.hitungLuas();
-        A.hitungKeliling();
+        // menghitung luas dan keliling dari Lingkaran L1
+        L1.hitungLuas();
+        L1.hitungKeliling();
         
-        // membuat obyek persegi lingkaran B
-        Lingkaran B = new Lingkaran();
+        // membuat obyek persegi lingkaran L2
+        Lingkaran L2 = new Lingkaran();
         
-        // memberi nilai atribut dari Lingkaran B
-        B.jejari = 12;
+        // memberi nilai atribut dari Lingkaran L2
+        L2.jejari = 12;
         
-        // menghitung luas dan keliling dari Lingkaran B
-        B.hitungLuas();
-        B.hitungKeliling();
+        // menghitung luas dan keliling dari Lingkaran L2
+        L2.hitungLuas();
+        L2.hitungKeliling();
     }
 }
