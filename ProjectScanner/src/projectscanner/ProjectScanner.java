@@ -16,9 +16,15 @@ public class ProjectScanner {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        PersegiPanjang pp1 = new PersegiPanjang();
-        pp1.hitungLuas();
-        pp1.hitungKeliling();
+        Scanner bacaData = new Scanner(System.in);
+        Persegi A = new Persegi();
+        A.hitung();
+        System.out.println();
+        PersegiPanjang PP1 = new PersegiPanjang();
+        PP1.hitung();
+        System.out.println();
+        Lingkaran Lo = new Lingkaran();
+        Lo.hitung();
     }
     
 }

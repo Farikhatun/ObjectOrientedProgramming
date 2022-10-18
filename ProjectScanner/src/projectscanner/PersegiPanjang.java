@@ -10,21 +10,18 @@ import java.util.Scanner;
  * @author FARIKHATUN
  */
 public class PersegiPanjang {
-    int panjang;
-    int lebar;
-    
-    PersegiPanjang(){
-        Scanner 
-    }
-    
-    //method
-    void hitungLuas(){
-        double luas = this.panjang * this.lebar;
-        System.out.println("Luas pesegi panjang adalah " + luas);
-    }
-    
-    void hitungKeliling(){
-        double keliling = 2 *(this.panjang + this.lebar);
-        System.out.println("Keliling persegi panjang " + keliling);
+    Scanner bacaData = new Scanner(System.in);
+        
+    void hitung(){
+    System.out.print("Masukkan nilai panjang : ");
+    double panjang = bacaData.nextDouble();
+    System.out.print("Masukkan nilai lebar : ");
+    double lebar = bacaData.nextDouble();
+    double luas = panjang * lebar;
+    System.out.println("Luas Persegi Panjang adalah : " + luas);
+    double keliling = 2 * (panjang + lebar);
+    System.out.println("Keliling Persegi Panjang adalah " + keliling);
     }
 }
+    
+   
